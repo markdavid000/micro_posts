@@ -1,0 +1,23 @@
+.edit,
+.delete {
+    transition: all .2s ease;
+}
+
+.edit:hover,
+.edit:active {
+    color: #ffbb00 !important;
+}
+
+.delete:hover,
+.delete:active {
+    color: #ff0000 !important;
+}
+
+.card{
+    border: 2px solid #44d9e8e6;
+    border-radius: 10px;
+}
+
+.text{
+    text-shadow: 0 0 2px #44d9e8e6, 0 0 4px #44d9e866, 0 0 1rem #44d9e84d, 0 0 4rem #44d9e81a;
+}
